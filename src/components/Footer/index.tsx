@@ -1,8 +1,6 @@
 import { FooterCopyright } from "./FooterCopyright";
 
-interface FooterProps {
-  hideForm?: boolean;
-}
+interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => {
   return (

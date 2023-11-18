@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import React, { ReactNode } from "react";
 
 import BaseLayout from "@/layout/BaseLayout";
