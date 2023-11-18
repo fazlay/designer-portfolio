@@ -1,4 +1,7 @@
-import React from "react";
+import { motion } from "framer-motion";
+import React, { ReactNode } from "react";
+
+import BaseLayout from "@/layout/BaseLayout";
 
 const Index = () => {
   const pictureArray = [
@@ -62,11 +65,11 @@ const Index = () => {
           {pictureArray.map((picture) => (
             <div>
               <a href="/aewe">
-                <div className="relative p-1 before:content-[''] before:absolute before:inset-0 before:hover:bg-white before:hover:bg-opacity-20">
+                <div className="relative p-1 group before:content-[''] before:absolute before:inset-0 before:hover:bg-white before:hover:bg-opacity-60">
                   <img className="w-full " src={picture.pictureUrl} />
                   <div className="test__body absolute inset-0  text-[#000] flex flex-col items-center justify-center">
                     <div className="relative">
-                      <h1 className="test__title text-3xl font-bold mb-3">
+                      <h1 className="invisible group-hover:visible test__title text-2xl font-normal mb-3">
                         {picture.title}
                       </h1>
                     </div>
@@ -79,6 +82,10 @@ const Index = () => {
       </div>
     </div>
   );
+};
+
+Index.getLayout = (page: ReactNode) => {
+  return <BaseLayout>{page}</BaseLayout>;
 };
 
 export default Index;

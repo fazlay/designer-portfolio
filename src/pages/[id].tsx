@@ -8,12 +8,20 @@ const PortfolioDetailsPage = () => {
   // const { id } = router.query;
   return (
     <div>
-      <div className="container font-dinNext max-w-[956px] mx-auto pt-10 overflow-hidden flex flex-row">
-        <div className="w-[609px] h-[407px] flex-2">
+      <div className="container font-dinNext max-w-[956px] mx-auto pt-10  flex flex-row">
+        <div className="w-[609px]  flex-2">
           <img
             src="https://static.wixstatic.com/media/31b5a8_41e5e80ab1aa4d6db5834c5327b0fd7c~mv2.png/v1/fill/w_312,h_208,q_90/31b5a8_41e5e80ab1aa4d6db5834c5327b0fd7c~mv2.webp"
             alt=""
             className="w-full"
+          />
+          <img
+            src="https://static.wixstatic.com/media/31b5a8_c5813bc3195f4c498de182f879835c25~mv2.png/v1/fill/w_609,h_407,q_90/31b5a8_c5813bc3195f4c498de182f879835c25~mv2.png"
+            alt=""
+          />
+          <img
+            src="https://static.wixstatic.com/media/31b5a8_0d9009e8796447ff814ce6bf6c31510f~mv2.jpg/v1/fill/w_609,h_342,q_90/31b5a8_0d9009e8796447ff814ce6bf6c31510f~mv2.jpg"
+            alt=""
           />
         </div>
         <div className="pl-[30px] pt-[10px] flex-1">
