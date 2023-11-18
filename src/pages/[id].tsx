@@ -4,8 +4,8 @@ import React, { ReactNode } from "react";
 import BaseLayout from "@/layout/BaseLayout";
 
 const PortfolioDetailsPage = () => {
-  const router = useRouter();
-  const { id } = router.query;
+  // const router = useRouter();
+  // const { id } = router.query;
   return (
     <div>
       <div className="container font-dinNext max-w-[956px] mx-auto pt-10 overflow-hidden flex flex-row">
