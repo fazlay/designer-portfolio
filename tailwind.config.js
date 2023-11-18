@@ -39,6 +39,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-montserrat)"],
+        dinNext: ["var(--font-dinNext)"],
         serif: ["ui-serif", "Georgia"],
         mono: ["ui-monospace", "SFMono-Regular"],
         "josefin-semibold": "var(--font-josefin-semibold)",

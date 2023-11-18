@@ -1,7 +1,18 @@
 import { Josefin_Sans, Montserrat } from "next/font/google";
+import localFont from "next/font/local";
+
+export const dinNextFont = localFont({
+  src: [
+    {
+      path: "../../../public/font/din-next-w10-light.ttf",
+      // weight: "300",
+    },
+  ],
+  variable: "--font-dinNext",
+});
 
 export const montserrat = Montserrat({
-  weight: ["100", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["300"],
   subsets: ["latin"],
   variable: "--font-montserrat",
   style: ["normal", "italic"],
