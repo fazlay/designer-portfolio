@@ -1,0 +1,156 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+
+
+/* @layer base {
+  html {
+    font-family: Butler, system-ui, sans-serif;
+  }
+} */
+.main_container{
+  max-width: 1268px;
+  /* margin: 0 80px; */
+  overflow: hidden;
+}
+
+/* Constant Colors */
+:root {
+  --blue: #041e42;
+}
+
+.container_margin{
+  margin: 0.25rem/* 4px */;
+ 
+}
+.container_padding{
+  margin: 0 5rem;
+}
+
+.footer_image_container{
+  color: #fff;
+  background-image: url('/assets/images/footer_banner_image.png');
+  height: 674px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social-icon-footer {
+
+  margin-right: 15px;
+  background-color: #E1E1E1;
+  padding: 17px;
+  border-radius: 100px;
+  transition: all 0.1s ease-out;
+}
+
+.height_500{
+  height: 30rem;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+ 
+
+  /* Center slide text vertically */
+  display: flex!important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 100%;
+  border: 2px solid black;
+  color: red;
+  
+}
+#navbar > li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom: transparent 4px solid;
+  display: flex;
+  align-items: center;
+}
+#navbar > li:hover:nth-child(4) {
+  color: red;
+  border-bottom: transparent 4px solid;
+  transition: all 0.5s ease-out;
+}
+#navbar > li:hover:last-child {
+  color: red;
+  border-bottom: transparent 4px solid;
+  transition: all 0.5s ease-out;
+
+}
+#navbar > li:last-child {
+  padding-right: 0rem;
+}
+#navbar > li:hover {
+  color: red;
+  border-bottom: red 4px solid;
+  transition: all 0.5s ease-out;
+}
+.react-player__shadow{
+  background-color:  #fff!important;
+  padding: 20px;
+}
+.react-player__play-icon{
+
+  border-color: transparent transparent transparent #ef4033!important;
+}
+
+
+@media (min-width: 768px ) and (max-width: 1279px){
+  .container_margin {
+    margin: 0 5rem; /* 80px */
+  }
+}
+@media (min-width: 1280px ) and (max-width: 1439px){
+  .container_margin {
+    margin: 0 5rem; /* 80px */
+  }
+}
+/* @media (min-width: 1440px)and (max-width: 1919px)  {
+  .container_margin {
+    margin: 0 8rem; 80px 
+}} */
+@media (min-width: 1440px)  {
+  .container_margin {
+    /* margin: 0 220px;  */
+    max-width: 1268px; 
+    margin: 0 auto; 
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+

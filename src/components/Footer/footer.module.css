@@ -1,0 +1,78 @@
+.footer_ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_li {
+  padding-left: 20px; /* Add some padding to make space for the icon */
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 2.5px;
+  margin-bottom: 5px; /* Optional: Add some spacing between list items */
+}
+
+.footer_li:hover::after {
+  content:'';
+  height:2px;
+  width:10%;
+  background:#fff;
+  position:absolute;
+  left:  calc(50% - 40%);
+  bottom:-2px;
+  
+}
+
+.footer_li::before {
+  content: '\0276F'; /* Font Awesome icon code for a home icon */
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+}
+
+
+.webflow_style_input {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 348px;
+  margin: 0 auto;
+  height: 50px;
+  color: #0000 ;
+border: none;
+  
+
+}
+
+.webflow_style_input input {
+  flex-grow: 1;
+  color: #000 ;
+  font-size: 1.0rem;
+  line-height: 1.0rem;
+  vertical-align: middle;
+  border-radius: 5px 0 0 5px;
+  height: 50px;
+  padding-left: 10px;
+  border:none;
+
+
+}
+
+.webflow_style_input input:focus {
+  outline: none;
+}
+
+.webflow_style_input button {
+ color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  vertical-align: middle;
+  transition: color .25s;
+  padding:0 25px;
+  background-color: #ef4033;
+  /* &:hover {
+    color: $input-text-active;
+  } */
+}

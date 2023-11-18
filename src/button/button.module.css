@@ -1,0 +1,33 @@
+.outer_button {
+  display: inline-block;
+  padding: 5px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
+  
+  font-weight: 700;
+  background-color: var(--blue);
+  border: none; /* Remove the default button border */
+  box-shadow: 
+    0 0 0 3px #ffff, /* Outer border with color  */
+    0 0 0 5px var(--blue), /* Inner border with color  */
+    0 0 0 12px transparent;  
+}
+
+.outer_button_transparent {
+  display: inline-block;
+  padding: 5px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: transparent;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: .3;
+  background-color: transparent;
+  border: none; /* Remove the default button border */
+  box-shadow: 
+    0 0 0 3px #ffff, /* Outer border with color  */
+    0 0 0 8px var(--blue), /* Inner border with color */
+    0 0 0 12px transparent;  
+}
